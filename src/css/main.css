@@ -60,5 +60,12 @@
 
 /* Begin styling the report items here! */
 .reports {
-
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 30px;
+}
+@media (max-width: 768px){
+ .reports {
+     grid-template-columns: auto auto;
+    }
 }
